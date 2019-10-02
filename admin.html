@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Admin Page</title>
+  <link href="meeting.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gayathri|Open+Sans|Squada+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- This is the header section -->
+  <header class="header">
+    <p class="company-name"><a href="/home.html" class="logo-name">Medallion Co.</a></p>
+
+    <nav>
+      <ul class="nav-bar5">
+        <li><a href="/home.html" class="action-tag">Home</a></li>
+        <li>Logout</li>
+        <li><a href="/clock_in.html" class="action-tag">Clock in</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End of header section -->
+
+
+
+  
+
+  <!---Search bar to get one and get all-->
+
+  <form id="search-table" class="search-bar">
+    <input type="search" placeholder="Find...">
+  </form>
+    
+  <!-- End of the search bar input engine-->
+
+
+
+
+
+  <!--  This section takes the attendees in a table-->
+
+  <div class="container-fluid">
+    <table id="dtBasicExample" class="table table-striped">
+
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Firstname</th>
+        <th scope="col">Lastname</th>
+        <th scope="col">email</th>
+        <th scope="col">Date</th>
+        <th scope="col">Time </th>
+        <th scope="col">Action</th>
+        <thead>
+      </tr>
+      </thead>
+      <tbody>
+
+        <tr id="user-list">
+          <th scope="row">5</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>nairamarley@yahoo.com</td>
+          <td>17 sept, 2019</td>
+          <td>8:35 am</td>
+          <td><a href='#'>Edit</a>
+            <a href='#' id="delete">Delete</a></td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- This is the end of the table-->
+
+   
+
+  <script src="/jquery-folder/js/jquery-3.4.1.min.js"></script>
+  <script src="/admin.js"></script>
+  
+  
+
+
+
+
+</body>
+
+</html>
