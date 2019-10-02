@@ -59,3 +59,17 @@ typings/
 
 # next.js build output
 .next
+
+# Ds_store file
+.Ds_store
+
+# node module and jquery
+/node_modules
+/jquery-folder
+
+#images
+/images
+
+#db.json
+.db.json
+

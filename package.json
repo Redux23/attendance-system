@@ -1,0 +1,22 @@
+{
+  "name": "attendance-app",
+  "version": "1.0.0",
+  "description": "Building a simple attendance system",
+  "main": "admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redux23/attendance-system.git"
+  },
+  "author": "Bright Osuagwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Redux23/attendance-system/issues"
+  },
+  "homepage": "https://github.com/Redux23/attendance-system#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
