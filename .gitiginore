@@ -3,3 +3,4 @@
 .gitignore
 .Ds_Store
 /images
+.db.json
