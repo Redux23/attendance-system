@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Nelo",
+      "last_name": "Bridge",
+      "email": "chineleudeka@gmail.com"
+    },
+    {
+      "first_name": "Tunde",
+      "last_name": "Baba",
+      "email": "babatutu@gmail.com",
+      "id": 2
+    },
+    {
+      "first_name": "Bright",
+      "last_name": "Osuagwu",
+      "email": "bo.osuagwu@gmail.com",
+      "id": 3
+    },
+    {
+      "first_name": "Bright",
+      "last_name": "Osuagwu",
+      "email": "cosuagwu@yahoo.com",
+      "id": 4
+    },
+    {
+      "first_name": "nnamdi",
+      "last_name": "Osuagwu",
+      "email": "bosuagwu@gmail.com",
+      "id": 5
+    },
+    {
+      "first_name": "Bright",
+      "last_name": "Osuagwu",
+      "email": "bouagwu@gmail.com",
+      "id": 6
+    }
+  ]
+}

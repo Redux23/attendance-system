@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.home-body {
+  background-color: #fff;
+  color: #000;
+ 
+ 
+}
+
+
+
+
+.register-background {
+  background-color: #fff !important;
+}
+
+
+
+/* .header {
+
+    background-color: grey;
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+} */
+
+
+.company-name  {
+    font-family: 'Gayathri', sans-serif;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.logo-name {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.nav-bar{
+    color: #000;
+    font-family: 'Gayathri', sans-serif;
+    position: absolute;
+     left: 80%;
+    display: flex;
+    list-style-type: none;
+    top: 20px;
+
+}
+
+
+.nav-bar1{
+  color: #000;
+  font-family: 'Gayathri', sans-serif;
+  position: absolute;
+   left: 80%;
+  display: flex;
+  list-style-type: none;
+  top: 20px;
+
+}
+
+.nav-bar2 {
+  color: #000;
+  font-family: 'Gayathri', sans-serif;
+  position: absolute;
+   left: 900px;
+  display: flex;
+  list-style-type: none;
+  top: 20px;
+
+}
+
+
+.nav-bar3{
+  color: #000;
+  font-family: 'Gayathri', sans-serif;
+  position: absolute;
+   left: 75%;
+  display: flex;
+  list-style-type: none;
+  top: 15px;
+
+}
+
+.nav-bar4{
+  color: #000;
+  font-family: 'Gayathri', sans-serif;
+  position: absolute;
+   left: 80%;
+  display: flex;
+  list-style-type: none;
+  top: 15px;
+
+}
+
+.nav-bar5{
+  color: #000;
+  font-family: 'Gayathri', sans-serif;
+  position: absolute;
+   left: 65%;
+  display: flex;
+  list-style-type: none;
+  top: 15px;
+
+}
+
+
+
+.nav-bar li{
+  padding-right: 15px;
+ 
+}
+
+.nav-bar2 li{
+  padding-right: 15px;
+}
+.nav-bar3 li{
+  padding: 8px;
+ 
+}
+.nav-bar3 li a{
+  text-decoration: #000;
+}
+.nav-bar4 li{
+  padding: 8px;
+}
+.nav-bar5 li{
+  padding: 8px;
+}
+
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+  
+}
+
+
+.login-link {
+  position: relative;
+  top: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.login-message{
+  color: green;
+  position: relative;
+  top: 18px;
+}
+
+.register-ref {
+    position: relative;
+    bottom: 5px;
+    padding: 30px;
+
+}
+
+.reg-form {
+
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    padding: 40px;
+    color: #fff;
+
+}
+
+
+.action-tag {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+
+.btn-success {
+position: relative;
+bottom: 5px;
+
+}
+
+.container-fluid  {
+  border-style: 1px initial;
+  padding: 100px;
+
+}
+
+.input-data {
+  
+  width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  border-style: ridge;
+  padding: 50px;
+  border-radius: 5px;
+  
+
+}
+
+.container-register {
+
+  width: 400px;
+  margin: auto;
+  margin-top: 90px;
+  text-align: center;
+  border-style: ridge;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+
+}
+.container-login {
+
+  width: 400px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  border-style: ridge;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.search-bar {
+
+  position: absolute;
+  top: 12px;
+  left: 84%;
+  width: 80px;
+  border-radius: 40px;
+  
+}
+
+#slider {
+  margin-left: 14%;
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#slider .slides {
+
+  display: block;
+  width: 600px;
+  height: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 600px;
+  height: 400px;
+}
+
+
+
+
