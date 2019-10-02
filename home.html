@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+    <link href="meeting.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri|Open+Sans|Squada+One&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body class="home-body">
+
+    <!-- this is the header section -->
+    <header class="header">
+        <p class="company-name"><a href="/home.html" class="logo-name">Medallion Co.</a></p>
+        <nav>
+            <ul class="nav-bar3">
+
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>News</li>
+                <li><a href="/login.html">Login</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header section -->
+
+
+
+    <!-- this section contains the info to register -->
+
+    <div class="info">
+
+        <h1>Scroll below to register now and keep track of your meeting Attendance</h1>
+    </div>
+    <!-- End of info section-->
+    
+    <!-- image-->
+       
+     <div>
+       <img src="/images/image_01 2.jpg" alt="picture showing hands on a table">
+        
+    </div>
+
+        
+    <!-- end of the image slider-->
+
+
+    <!-- This section includes the link to register page-->
+
+    <div class="register-ref">
+
+        <p>To register today, <a href="/register.html">click me!</a></p>
+
+    </div>
+    <!-- this is the end of section -->
+
+
+    <script src="/jquery-folder/js/jquery-3.4.1.min.js"></script>
+    <script src="/meeting.js"></script>
+   
+<script>
+
+$(document).ready(function(){
+
+
+setInterval(() =>{
+    $('.info').fadeToggle(1000)
+
+}, 2000)
+
+
+})
+
+</script>
+
+</body>
+
+</html>
