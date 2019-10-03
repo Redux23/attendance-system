@@ -24,7 +24,7 @@ $(document).ready(function () {
             <td>${item.Action}</td>
           </tr>
           `)
-          
+          console.log(`${item.Action}`)
       })
 
     })
